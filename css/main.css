@@ -1,21 +1,21 @@
 
 
 /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+Author's custom styles
+========================================================================== */
 
 
-   /* ==========================================================================
-   fonts
-   ========================================================================== */
+/* ==========================================================================
+fonts
+========================================================================== */
    
    /* font-family: 'Roboto', sans-serif;
    font-family: 'Montserrat', sans-serif;
    font-family: 'Playfair Display', serif; */
 
 /* ==========================================================================
-   Global styles
-   ========================================================================== */
+Global styles
+========================================================================== */
 
    html, body{
        height: 100%;
@@ -266,17 +266,17 @@
 
 
 
-   /* ==========================================================================
-   Navbar Styles
-   ========================================================================== */
+/* ==========================================================================
+Navbar Styles
+========================================================================== */
 
   
 
 
 
-   /* ==========================================================================
-   Hero Section
-   ========================================================================== */
+/* ==========================================================================
+Hero Section
+========================================================================== */
 
    .hero-section{
         position: relative;
@@ -312,163 +312,22 @@
         right: 0; 
     }
 
-   /* ==========================================================================
-   Service Area
-   ========================================================================== */
+/* ==========================================================================
+Tile(Project) Section
+========================================================================== */
    
 
    .service-area h4{
         color: grey;
     }
 
-   .service-area col{
-       width: 180px;
-       height: 180px;
-    }
-
-    .service-img-box{
-        opacity: 0;
-        transform: translateY(50px);
-        transition: 1s all ease;
-    }
-
-    .service-img-box.is-showing{
-        opacity: 1;
-        transform: translateY(0px);
-    }
-
-    .service-img-box .img-thumbnail{
-        background: none;
-    }
 
 
 
-
-   /* ==========================================================================
-   About Us Section
-   ========================================================================== */
-
-    
-    .jumbotron-fluid.aboutus-section {
-        background: linear-gradient( 90deg, rgba(4, 255, 201, 0.9) 0%, rgba(0, 140, 255, 0.8) 100%  ),url(../img/about_us_bg2.jpg) center top no-repeat;
-        background-size: cover;
-        padding-bottom: 600px;    
-    }
-
-    .aboutus-section hr {
-        border-color: white;
-    }
-
-    .aboutus-section p {
-        padding-bottom: 60px;
-    }
-
-
-   /* ==========================================================================
-   Services Umbrella Section
-   ========================================================================== */
-
-   .service-umbrella {
-        margin-top: -600px;
-        max-width: 450px;   
-   }
-
-   .service-umbrella hr {
-       margin-top: 110px;
-   }
-
-   .service-umbrella p{
-       padding-bottom: 100px;
-   }
-
-   .service-umbrella .card-body{
-       color: white;
-   }
-
-   .service-umbrella .card-body{
-       padding-bottom: 30px;       
-   }  
-
-   .service-umbrella .list-group-item{
-        padding: 10px 15px;
-        margin-bottom: -1px;
-        background-color: rgba(0,0,0,0); 
-        border: 1px solid rgba(0,0,0,0);
-   }
-
-   .service-cat{
-        display: block;
-        position: relative; 
-        overflow: hidden;
-        background: rgb(157, 67, 241);
-        z-index: 900;
-        border-radius: 6px;
-        -webkit-box-shadow: 0px 9px 13px -1px rgba(0,0,0,0.25);
-        -moz-box-shadow: 0px 9px 13px -1px rgba(0,0,0,0.25);
-        box-shadow: 0px 9px 13px -1px rgba(0,0,0,0.25);
-    }    
-
-    .service-cat h4{
-        font-size: 2.1rem;
-        font-weight: 600;
-    }
-
-    .service-cat h4, .service-cat li {
-        z-index: 910;
-    }
-
-    .service-cat::after{
-        position: absolute;
-        top: 0;
-        left: 0;        
-        content: '';
-        width: 150%;
-        height: 150%;        
-        display: block;
-        background: rgba(255,255,255,0.2);
-        transform: translate(-35%,-55%) rotate(70deg);        
-   }
-
-   /* .cat1 {
-        background: rgba(255, 21, 130,0.9); 
-    }
-
-   .cat2{
-        background: rgba(131,15,227,0.9);
-   }
-
-   .cat3{
-        background: rgba(255, 21, 130, 0.9); 
-    } */
-
-    .cat1 {
-        background: rgba(255, 54, 150,1); 
-    }
-
-   .cat2{
-        /* background: rgba(118,118,240,1); */
-        background: rgba(157,67,241,1);
-   }
-
-   .cat3{
-        background: rgba(255, 54, 150, 1); 
-    }
-
-    /* .cat1 {
-        background: rgba(255, 119, 116,1); 
-    }
-
-   .cat2{
-        background: rgba(143,102,255,1);
-   }
-
-   .cat3{
-        background: rgba(255, 119, 116, 1); 
-    } */
 
    
 
-    /* ==========================================================================
+/* ==========================================================================
 Disclaimer Section
 ========================================================================== */
    
@@ -484,122 +343,9 @@ Disclaimer Section
 
 
 
-
-
-     /* ==========================================================================
-   We Assure Quality Section
-   ========================================================================== */
-
-   .quality-section {
-        padding-top: 0;
-        padding-bottom: 0;
-        overflow: hidden;
-   }
-
-   .quality-section hr{
-        margin-top: 60px;
-        margin-bottom: 0px;
-   }
-
-   .quality-section ul{
-       list-style-type: none;
-   }
-   
-   .quality-section li{
-        position: relative;
-        padding-bottom: 20px;
-   }
-
-   .quality-section li span{
-        position: absolute;
-        left: -40px;
-        top: 4px;
-        color: rgba(29,163,176,1);
-    }
-
-
-   /* ==========================================================================
-   Client Section
-   ========================================================================== */
-
-    .client-section {
-        max-width: 1000px;
-    }
-
-    .client-section .col-6 {
-        padding: 0px 10px 20px;
-    }
-
-    .client-box {
-        opacity: 1;
-        transform: translateY(50px);
-        transition: 1s all ease;
-    }
-
-    .client-box.is-showing{
-        opacity: 1;
-        transform: translateY(0px);
-    }
-
-
-    .client-img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        padding: 30px;
-        border: 1px solid rgba(153, 153, 153, 0.3);
-        background: white;
-    }
-
-    .client-img .img-thumbnail {
-        border: none;
-    }
-
-    /* .carousel {
-        padding-bottom: 100px;
-    }
-
-    .carousel-inner {
-        overflow: visible;
-    }
-
-    .carousel-inner>.active{
-        display: flex;
-    }
-
-    .carousel-item-next, .carousel-item-prev, .carousel-item.active {
-        display: flex;
-    } */
-
-
-
-
-/*-------------------------------------------------------------------------
-Bootsnip - For home page only
----------------------------------------------------------------------------*/
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-   /* ==========================================================================
-    Footer Section
-   ========================================================================== */
+/* ==========================================================================
+Footer Section
+========================================================================== */
 
     footer {
         background: rgba(29,163,176,1);     
@@ -656,6 +402,7 @@ Bootsnip - For home page only
    Screen above 576px - sm
    ========================================================================== */
    @media screen and (min-width: 576px) {
+
    /* ==========================================================================
    Header section
    ========================================================================== */
@@ -770,67 +517,7 @@ Bootsnip - For home page only
         background-size: cover;
     }
 
-    /* ==========================================================================
-   About Us Section
-   ========================================================================== */
-
-
    
-
-   /* ==========================================================================
-   Services Umbrella Section
-   ========================================================================== */
-
-   .service-umbrella{
-        max-width: 1140px;   
-    }
-
-    .service-cat.cat2{
-        transform: scale(1,1) translateY(0px);
-        opacity: 0;
-        z-index: 905;
-        transition: 0.6s all ease;
-    }
-
-    .service-cat.cat1{
-        transform: translate(-20px,30px);
-        transition: 0.6s all ease;
-        opacity: 0;
-    }    
-
-    .service-cat.cat3{
-        transform: translate(20px,30px);
-        transition: 0.6s all ease;
-        opacity: 0;
-    }
-
-    .cat1.assemble {
-        transform: translate(20px,0px);
-        opacity: 1;
-    }
-
-    .cat2.assemble {
-        transform: scale(1.1,1.1) translateY(0px);
-        opacity: 1;    
-    }
-
-    .cat3.assemble {
-        transform: translate(-20px,0px);
-        opacity: 1;
-    }
-
-
-
-      /* ==========================================================================
-    Quality Section
-    ========================================================================== */
-
-
-    .quality-section {
-        /* background: url("../img/star_bg.jpg") right top no-repeat;  */
-        /* background: lightseagreen;         */
-   }
-
 
 
      /* ==========================================================================
@@ -855,16 +542,6 @@ Bootsnip - For home page only
         justify-content: flex-start!important;
     }
 
-
-
-
-    /* ==========================================================================
-    Author's custom styles
-    ========================================================================== */
-
-
-
-
  
  
  
@@ -881,23 +558,7 @@ Bootsnip - For home page only
     Author's custom styles
     ========================================================================== */
  
-      /* ==========================================================================
-   Services Umbrella Section
-   ========================================================================== */
-
-   .service-umbrella{
-        max-width: 1100px;   
-    }
- 
- 
- 
- 
-    /* ==========================================================================
-    Author's custom styles
-    ========================================================================== */
- 
- 
- 
+  
  
     /* ==========================================================================
     Author's custom styles
@@ -909,21 +570,6 @@ Bootsnip - For home page only
  
     }
 
-
-
-
-
-   /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-   /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
 
 
 

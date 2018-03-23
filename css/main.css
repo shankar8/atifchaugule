@@ -289,7 +289,7 @@ Hero Section
     }
 
     .jumbotron-fluid.hero-section{
-        background: linear-gradient(135deg, rgba(4, 255, 201, 0.6) 10%, rgba(0, 140, 255, 0.5) 80% ),url(../img/hero_bg1.jpg) center top no-repeat;
+        background: linear-gradient(135deg, rgba(4, 255, 201, 0.0) 10%, rgba(0, 140, 255, 0.0) 80% ),url(../img/hero_bg1.jpg) center center no-repeat;
         background-size: cover;
     }
  
@@ -308,8 +308,9 @@ Hero Section
         padding-right: 10px;
         position: absolute;
         top: 50%;
-        transform: translateY(-50%);
-        right: 0; 
+        left: 50%;
+        transform: translate(-50%,-50%);
+         
     }
 
 /* ==========================================================================
@@ -513,7 +514,7 @@ Footer Section
 
 
      .jumbotron-fluid.hero-section{
-        background: linear-gradient(135deg, rgba(4, 255, 201, 0.6) 10%, rgba(0, 140, 255, 0.5) 80% ),url(../img/hero_bg1.jpg) center top no-repeat;
+        background: linear-gradient(135deg, rgba(4, 255, 201, 0.0) 10%, rgba(0, 140, 255, 0.0) 80% ),url(../img/hero_bg1.jpg) center center no-repeat;
         background-size: cover;
     }
 

@@ -29,248 +29,18 @@ Global styles
    }
     
 
-    .container-fluid .row{
+    .hero-section .row{
         position: absolute;
         height: 100%;
         width: 100%;
-    }
-
-   
-   .ffspl-section{
-       padding-top: 80px;
-       padding-bottom: 80px;
-   }
-
-   .ffspl-section h3 {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 3rem;
-        font-weight: 400;
-        text-transform: uppercase;
-        margin-bottom: 5px;
-   }
-
-   .ffspl-section p {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 2.5rem;
-        font-weight: 400;
-        line-height: 140%;
-        margin-bottom: 5px;
-   }
-
-    .ffspl-section h4,  .ffspl-section li {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 2.5rem;
-        font-weight: 300;  
-    }
-
-    .ffspl-section h4{
-        font-family: 'Montserrat', sans-serif;
-        letter-spacing: 1px;        
-        font-weight: 500;
-        text-transform: uppercase;
-        font-size: 1.8rem;
-        margin: 15px auto;
-        text-align: center;
-    }
-
-    .ffspl-section li{
-        font-weight: 500;
-        font-size: 1.8rem;
-    }
-
-    .section-heading {
-        position: relative;
-        padding-bottom: 65px;
-    }
-
-    .section-heading::after {
-        position: absolute;
-        left: 50%;        
-        content: '';
-        width: 90px;
-        transform: translateX(-50%);
-        display: block;
-        border-bottom: 10px solid rgba(58, 199, 216, 1);
-    }
-
-    .section-heading.white-heading::after{
-        border-bottom: 10px solid rgba(255,255,255,.9);
-    }
+    } 
 
 
     .container{
         max-width: 1100px;
     }
    
-/* -----------------------------------------
-   Header
------------------------------------------ */
 
-    .headerContent h1,li {
-        padding:0;
-        margin:0;
-        }
-    
-    .headerWrapper {
-        padding: 10px;
-        position:fixed;
-        width: 100%;    
-        z-index: 2000;
-        transition: 0.3s all ease; 
-    }   
-
-    .headerBg {
-        background: rgba(255, 255, 255, 1);        
-        position: absolute;
-        top:10px;
-        left:10px;
-        right: 10px;
-        bottom: 10px;
-        opacity: 0.7;
-        border: none;
-        transition: 0.3s all ease;  
-    }
-
-    .headerBg.moveUp {
-        transform: translateY(-10px) scaleX(1.1);
-        opacity: 1;
-        background: rgb(255,253,237);
-        border-bottom: 1px solid rgba(29,163,176,0.4);
-    }
-
-    .headerContent {
-        box-sizing: border-box;
-        position: relative;
-        width: 100%;     
-        height: 70px;
-        transition: 0.3s all ease;
-    }
-
-    .headerContent.moveUp{
-        transform: translateY(-10px);
-    }
-
-    h1.logo{
-        padding: 10px;        
-    }	
-	
-    h1.logo a {
-        text-indent:-999%;
-        overflow:hidden;
-        display:block;
-        height:50px;
-        width: 220px;	
-        margin:10px;
-        background:url(../img/ffspl_logo.png) no-repeat;
-        background-size: contain;
-    }
-    
-    .tagline {
-        position: absolute;
-        top: 90px;
-        left: 10px;
-        right: 10px; 
-        display: inline-block;
-        height: 70px;
-        padding: 0 30px;
-        background: rgba(255, 255, 255, 0.7);
-        transition: 0.3s opacity ease;
-    }
-
-    .tagline.gone {
-        opacity: 0;
-    }
-
-    .tagline p {
-        font-family: 'Playfair Display', serif;
-        font-size: 1.8rem;
-        font-weight: 200;
-        text-align: center;
-        margin-bottom: 5px;
-        margin: 0 auto;
-        color: rgba(29,163,176,1);
-    }
-
-
-
-
-
-	
-	
-/* -----------------------------------------
-   Navigation
------------------------------------------ */	
-/*blue color :#1EAEDB */
-
-	
-/*add to nav*/
-    .navDark{
-        display:block;
-        position:fixed;
-        width:100%;
-        height:100vh;
-        background: rgba(29,163,176,1);
-        opacity:0.9;
-        top:0;
-        left:0;
-        right: 0;
-        bottom: 0;
-        z-index: 2100;
-        overflow: hidden;
-    }
-
-    .navigation{
-        display:none;
-    }	
-
-/*add to navigation*/
-    .navToggle {
-        display:block;
-        position:relative;
-        padding: 0px;
-        top: 45%;
-        left: 50%;
-        -webkit-transform:translate(-50%,-45%)
-        }
-
-    .navigation.navToggle li{	
-        list-style:none;
-        display:block;
-        padding:20px 20px;
-        text-align:center;
-        }
-
-    .navigation.navToggle li a {
-        text-decoration:none;
-        font-size:24px;
-        font-weight:bold;
-        color:white;
-        opacity:1;
-        }
-
-    .navicon{
-        display:block;
-        opacity:1;
-        padding:10px;
-        margin-right: 10px;
-        width: 50px;
-        height:50px;
-        z-index: 2200;
-        background:url(../img/burger.png) 10px 10px no-repeat;
-        }
-
-    .cross{
-        background:url(../img/crosswhite.png) 10px 10px no-repeat;
-        }			
-        
-
-
-
-/* ==========================================================================
-Navbar Styles
-========================================================================== */
-
-  
 
 
 
@@ -313,33 +83,20 @@ Hero Section
          
     }
 
-/* ==========================================================================
-Tile(Project) Section
-========================================================================== */
-   
 
-   .service-area h4{
-        color: grey;
+
+/* ==========================================================================
+Tile Section
+========================================================================== */
+
+    .tile-section {
+        /* background: pink; */
+        /* height: 400px; */
     }
 
-
-
-
-
-   
-
-/* ==========================================================================
-Disclaimer Section
-========================================================================== */
-   
-
-
-.disclaimer-section p{
-    padding-bottom: 30px;
-    font-weight: 500;
-    font-size: 1.8rem;
-}
-
+    .tile{
+        padding: 0px;
+    }
 
 
 
@@ -348,53 +105,28 @@ Disclaimer Section
 Footer Section
 ========================================================================== */
 
-    footer {
-        background: rgba(29,163,176,1);     
-        background: darkslategrey;     
-    }
+.footer-section{
+    background: rgba(67,67,67,1);
+    padding: 100px 0px;
+    color: rgba(211,211,211,1);
+    overflow: hidden;
+}
 
-    footer hr{
-        border-color: white;
-    }
-   
-    .social-contact{
-        padding: 50px 0px 150px;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 2.2rem;
-        font-weight: 300;
-        color: white;
-    }
+.footer-section p {
+    padding: 0px 20px;
+    font-size: 1.8em;
+    font-family: ministry, sans-serif;
+    /* font-style: italic; */
+    font-weight: 300;
+}
 
-    .social-contact p, .legal p{
-        text-align: center;        
-    }
-
-    .social-icons, .legal-links{
-        -ms-flex-pack: center!important;
-        justify-content: center!important;
-    }
-   
-    .legal {
-        color: white;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 1.5rem;
-        font-weight: 300;
-    }
-
-
-    footer li a {
-        color: white;        
-    }
-
-    footer li a:hover, footer li a:visited, footer li a:active {
-        color: lightgrey;
-        text-decoration: none;       
-    }
-
-
-
-
-
+.footer-section span{
+    font-size: 15em;
+    padding: 0px 0px;
+    font-family: ministry, sans-serif;
+    font-weight: 900;
+    line-height: 0.8;
+}
 
 
 
@@ -408,45 +140,8 @@ Footer Section
    Header section
    ========================================================================== */
 
-   .headerContent {   
-        height: 90px;   
-    }
+  
 
-    h1.logo a {
-        height:70px;
-        width: 310px;	
-    }
-
-    .tagline {
-        top: 110px;
-        left: initial;
-        right: initial;   
-        height: 90px;    
-    }
-
-    
-
-    .tagline p {    
-        font-size: 2.2rem;
-        margin-bottom: 5px;    
-    }
-
-
-
-
-   /* ==========================================================================
-   Hero Section
-   ========================================================================== */
-
-   .hero-text h3 {
-        font-size: 5.5rem;
-    }
-
-
-
-   /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
 
 
    }
@@ -461,87 +156,15 @@ Footer Section
    Screen above 768px - md
    ========================================================================== */
    @media screen and (min-width: 768px) {
-    /* ==========================================================================
-    Navigation
-    ========================================================================== */
+   
+    
  
-.navicon{
-	display:none;
-	opacity:0;
-	}
-
-.navigation{	
-	display:block;	
-	right:0;
-	top:0;
-    padding:10px 20px;
-    margin: 0;
-	}	
-
-.navigation li{	
-	list-style:none;
-	display:inline-block;
-	padding:0px 20px;
-	}	
-	
-.navigation li a {
-    text-decoration:none;
-    font-weight: 500;
-    font-size: 1.8rem;
-    color: grey;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-	}	
-
-.whitenav li a {
-	color:rgba(255,255,255,1);
-	}
-
-.whitenav li a:hover{
-	color:rgba(152,240,244,1.00);
-	}
-	
- #nav .current a {
-	 font-size:20px;
-	 font-weight:bold;
-     }
-  
 
       /* ==========================================================================
    Hero Section Section
    ========================================================================== */
 
 
-
-     .jumbotron-fluid.hero-section{
-        background: linear-gradient(135deg, rgba(4, 255, 201, 0.0) 10%, rgba(0, 140, 255, 0.0) 80% ),url(../img/hero_bg.jpg) center center no-repeat;
-        background-size: cover;
-    }
-
-   
-
-
-     /* ==========================================================================
-    Footer
-    ========================================================================== */
-
-    .social-contact p{
-        text-align: left;        
-    }
-
-    .social-icons{
-        -ms-flex-pack: end!important;
-        justify-content: flex-end!important;
-    }
-
-    .legal p {
-        text-align: right;
-    }
-
-    .legal-links{
-        -ms-flex-pack: start!important;
-        justify-content: flex-start!important;
-    }
 
  
  
@@ -561,10 +184,17 @@ Footer Section
  
   
  
-    /* ==========================================================================
-    Author's custom styles
-    ========================================================================== */
+/* ==========================================================================
+Footer Section
+========================================================================== */
 
+.footer-section p{
+    font-size: 2em;    
+}
+
+.footer-section span{
+    font-size: 30em;
+}
 
 
 
